@@ -1,0 +1,72 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+.iphone {
+    margin-top: 10px;
+    background-color: #F4F4FB;
+    height: 812px;
+    width: 375px;
+    box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.3)
+    inset 0 0 0 1px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    transform: scale(0.8);
+    transform-origin: top center;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+}
+
+.order-summary {
+    margin-left: 1.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.order-summary > div {
+    margin: 6px;
+}
+
+.order-status {
+    color: #338A9A;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.order-date {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.order-day {
+    color: #338A9A;
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+
